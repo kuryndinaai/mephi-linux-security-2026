@@ -1,5 +1,7 @@
 # operating-systems
-Homework assignments for Operating Systems course.
+
+Номер зачетной книжки М265259
+
 Раздел 1. Создание пользователя (5 баллов)
 
 1.1. Создание пользователя 
