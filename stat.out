@@ -1,0 +1,27 @@
+  File: /home/user1
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,4	Inode: 435524      Links: 2
+Access: (0700/drwx------)  Uid: ( 1234/   user1)   Gid: ( 1234/   user1)
+Context: unconfined_u:object_r:user_home_dir_t:s0
+Access: 2026-11-08 12:41:26.375865352 +0300
+Modify: 2026-11-08 13:55:31.656291622 +0300
+Change: 2026-11-08 13:55:31.656291622 +0300
+ Birth: 2026-11-08 12:03:06.295733973 +0300
+  File: /home/sfuser/cat
+  Size: 36568     	Blocks: 72         IO Block: 4096   regular file
+Device: 8,4	Inode: 435537      Links: 1
+Access: (4755/-rwsr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Context: unconfined_u:object_r:user_home_t:s0
+Access: 2026-11-08 13:21:58.070374756 +0300
+Modify: 2026-11-08 13:18:24.379481624 +0300
+Change: 2026-11-08 13:20:53.711708121 +0300
+ Birth: 2026-11-08 13:18:24.379481624 +0300
+  File: /home/sfuser/chown
+  Size: 65840     	Blocks: 136        IO Block: 4096   regular file
+Device: 8,4	Inode: 435967      Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/  sfuser)   Gid: ( 1000/  sfuser)
+Context: unconfined_u:object_r:user_home_t:s0
+Access: 2026-11-08 13:34:31.274362727 +0300
+Modify: 2026-11-08 13:32:26.265052569 +0300
+Change: 2026-11-08 13:36:14.891790986 +0300
+ Birth: 2026-11-08 13:32:26.265052569 +0300

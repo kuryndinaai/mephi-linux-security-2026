@@ -1,0 +1,66 @@
+    1  pwd
+    2  ls
+    3  ls -la
+    4  pwd
+    5  cd /documents
+    6  cd /Documents
+    7  man cd
+    8  whoami
+    9  id
+   10  gtent group wheel
+   11  getent group wheel
+   12  sudo groupadd students
+   13  getent group students
+   14  sudo useadd -u 1234 user1
+   15  sudo useradd -u 1234 user1
+   16  sudo usermod -G students user1
+   17  id user1
+   18  groups user1
+   19  sudo passwd user1
+   20  sudo chage -M 90 user1
+   21  sudo chage -l user1
+   22  sudo chage -l sfuser
+   23  find /etc -name "*.conf"
+   24  sudo find ... -perm -4000
+   25  sudo find / -perm -4000
+   26  sudo find / -type f -perm -4000
+   27  sudo find / -type f -perm -4000 -print 2>/dev/null
+   28  ls -l /usr/bin/passwd
+   29  sudo ps -e -o pid,ruid,euid,user,ruser,command
+   30  sudo ps -e -o pid,ruid,euid,user,ruser,command | awk '$2 != 0 && $3 == 0'
+   31  ls -l /etc/shadow
+   32  cat /etc/shadow
+   33  sudo cat /etc/shadow
+   34  which cat
+   35  pwd
+   36  cp /user/bin/cat ~/cat
+   37  sudo cp /usr/bin/cat ~/cat
+   38  ls -l
+   39  ~/cat /etc/shadow
+   40  sudo chown root:root ~/cat
+   41  ls -l
+   42  ls -l ~/cat
+   43  sudo chmod u+s ~/cat
+   44  ls -l ~/cat
+   45  ~/cat /etc/shadow
+   46  stat ~/cat
+   47  touch ~/test_chown
+   48  ls -l ~/test_chown
+   49  which chown
+   50  cp /usr/bin/chown ~/chown
+   51  ls -l
+   52  which setcap
+   53  sudo setcap cap_chown+ep ~/chown
+   54  getcap ~/chown
+   55  ~/chown root:root ~/test_chown
+   56  ls -l ~/test_chown
+   57  ls -l
+   58  sudo setcap -r ~/chown
+   59  which timedatectl
+   60  su - user1
+   61  sudo visudo -f /etc/sudoers.d/user1-time
+   62  sudo -l -U user1
+   63  su - user1
+   64  sudo timedatectl set-ntp true
+   65  date
+   66  history > ~/history.out

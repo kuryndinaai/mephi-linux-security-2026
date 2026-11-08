@@ -1,0 +1,3 @@
+   1688  1000     0 root     sfuser   fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   3078  1000     0 root     sfuser   sudo ps -e -o pid,ruid,euid,user,ruser,command
+   3089  1000     0 root     sfuser   sudo ps -e -o pid,ruid,euid,user,ruser,command
